@@ -1,4 +1,5 @@
-# 6 Projetos Fullstack
+![projetos](https://github.com/user-attachments/assets/a4a9d27a-b25a-4832-a77a-a8d73e463f31)
+
 
 Neste repositórios estarei postando 6 projetos fullstack com o intuito de aprofundar minhas habilidades como desenvolvedor explorando todas as stacks e maestrias que adiquiri em meus estudos, os projetos serão:
 
