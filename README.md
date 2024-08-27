@@ -1,7 +1,7 @@
 ![projetos](https://github.com/user-attachments/assets/a4a9d27a-b25a-4832-a77a-a8d73e463f31)
 
 
-Neste repositórios estarei postando 6 projetos fullstack com o intuito de aprofundar minhas habilidades como desenvolvedor explorando todas as stacks e maestrias que adiquiri em meus estudos, os projetos serão:
+Este repositório contém uma coleção de seis projetos fullstack desenvolvidos para demonstrar habilidades em diversas tecnologias e padrões de desenvolvimento. Os projetos incluem um sistema bancário, um site de fast food, um aplicativo de delivery, uma plataforma de e-commerce, um site de receitas culinárias e um sistema de gerenciamento de biblioteca. Cada projeto apresenta uma combinação de frontend e backend robustos, utilizando tecnologias como React, Node.js e MongoDB, e oferece funcionalidades completas para diferentes contextos e necessidades.
 
 ## 1. Banco
 
