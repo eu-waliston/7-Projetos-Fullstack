@@ -14,4 +14,7 @@ Descrição: Sistema de gerenciamento de biblioteca que permite o cadastro de li
 
 Cadastro e gestão de livros e usuários Funcionalidade de empréstimo e devolução Sistema de busca e filtros avançados Relatórios e estatísticas de uso da biblioteca
 
-### DB Schema:
+### DB Model Schema:
+
+![qwewer](https://github.com/user-attachments/assets/f2437695-8276-4a58-b75f-47ddd40ae390)
+
