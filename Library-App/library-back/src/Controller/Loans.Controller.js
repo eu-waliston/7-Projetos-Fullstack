@@ -78,7 +78,7 @@ async function deleteLoans(req,res){
 }
 
 module.exports = {
-    getALoans,
+    getALoan,
     getAllLoans,
     createLoans,
     updateLoans,

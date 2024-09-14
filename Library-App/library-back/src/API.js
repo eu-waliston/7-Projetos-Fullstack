@@ -14,10 +14,18 @@ App.use(cors());
 App.use(helmet());
 
 //Routes
-const PostRouter = require("./View/Post.View");
+const AuthorRouter = require("./View/Authors.View");
+const BooksRouter = require("./View/Books.View");
+const EditorsRouter = require("./View/Editors.View");
+const LoanRouter = require("./View/Loan.View");
+const UserRouter = require("./View/User.View");
 
 
-App.use("/", PostRouter);
+App.use("/", AuthorRouter);
+App.use("/", BooksRouter);
+App.use("/", EditorsRouter);
+App.use("/", LoanRouter);
+App.use("/", UserRouter);
 
 //Server Start
 const PORT = 8000;

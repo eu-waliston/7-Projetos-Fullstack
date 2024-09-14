@@ -4,7 +4,7 @@ const Author = require("../Model/Authors.Model");
 const Editors = require("../Model/Editors.Model");
 const Book = require("../Model/Books.Model");
 
-async function getABok(req, res) {
+async function getABook(req, res) {
   let _id = req.params.id;
   try {
     let book = Book.findOne(_id);
@@ -84,7 +84,7 @@ async function deleteBook(req, res) {
 }
 
 module.exports = {
-  getABok,
+  getABook,
   getAllBooks,
   createBook,
   updateBoook,
