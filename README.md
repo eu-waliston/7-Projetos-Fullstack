@@ -1,4 +1,4 @@
-![projetos](https://github.com/user-attachments/assets/a4a9d27a-b25a-4832-a77a-a8d73e463f31)
+# 7 Projetos Fullstack 
 
 
 Este repositório contém uma coleção de seis projetos fullstack desenvolvidos para demonstrar habilidades em diversas tecnologias e padrões de desenvolvimento. Os projetos incluem um sistema bancário, um site de fast food, um aplicativo de delivery, uma plataforma de e-commerce, um site de receitas culinárias e um sistema de gerenciamento de biblioteca. Cada projeto apresenta uma combinação de frontend e backend robustos, utilizando tecnologias como React, Node.js e MongoDB, e oferece funcionalidades completas para diferentes contextos e necessidades.
@@ -110,3 +110,59 @@ Cadastro e gestão de livros e usuários
 Funcionalidade de empréstimo e devolução
 Sistema de busca e filtros avançados
 Relatórios e estatísticas de uso da biblioteca
+
+## 7.  BarberShop - Site de Barbearia
+
+Descrição: Este é um projeto de um site responsivo para uma barbearia, que inclui agendamentos de serviços, informações sobre os barbeiros, uma galeria de estilos de corte e uma seção de contato. O site é feito com tecnologias modernas como HTML, CSS, JavaScript (Node.js), Express para o backend, e MongoDB como banco de dados.
+
+Tecnologias Utilizadas:
+
+ - Frontend: React
+ - Backend: Node.js, Express
+ - Banco de Dados: MongoDB
+ - Autenticação: JWT
+ - Testes: Jest
+
+
+Funcionalidades:
+Página Inicial (Landing Page):
+
+Banner Principal: Imagem de destaque com uma chamada para ação, como “Agende seu horário conosco hoje!”
+Apresentação dos Serviços: Lista dos principais serviços oferecidos, como cortes de cabelo, barbas e tratamentos.
+Depoimentos: Uma seção de feedback de clientes satisfeitos.
+Página de Serviços:
+
+Detalhamento dos serviços oferecidos, cada um com uma breve descrição e preço.
+Opção para "agendar um serviço" com um botão de acesso rápido.
+Perfil dos Barbeiros:
+
+Uma página dedicada aos barbeiros com fotos, biografias e especialidades (ex.: "especialista em cortes degradê").
+Links para redes sociais de cada barbeiro.
+Agendamento Online:
+
+Formulário para agendar serviços com escolha de barbeiro, data e horário.
+Integração com um sistema de back-end que verifica a disponibilidade dos barbeiros.
+Confirmação de agendamento por e-mail.
+Galeria de Estilos:
+
+Uma galeria de imagens mostrando os diferentes tipos de cortes e barbas que a barbearia oferece.
+Cada imagem pode ter um nome e breve descrição do estilo.
+Página de Contato:
+
+Formulário de contato para clientes fazerem perguntas ou enviarem feedback.
+Mapa interativo mostrando a localização da barbearia.
+Informações de contato, como endereço, telefone, e links para redes sociais.
+Login e Área do Cliente:
+
+Sistema de login para que clientes possam ver seus agendamentos anteriores, remarcar ou cancelar.
+Histórico de serviços realizados.
+Dashboard Administrativo (para a equipe da barbearia):
+
+Login para administradores e barbeiros.
+Visualização de agendamentos e disponibilidade em tempo real.
+Ferramentas para gerenciar os perfis dos barbeiros e atualizar a galeria de estilos.
+Blog (opcional):
+
+Seção onde a barbearia pode compartilhar dicas de cuidados com o cabelo e barba.
+Posts sobre as tendências atuais de corte.
+Responsividade:
