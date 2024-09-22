@@ -1,10 +1,18 @@
-const mongoose = require("mongoose");
+const express = require("express");
+const reserveRouter = express.Router();
 
-const reserveSchema = mongoose.Schema({
-    reserve_name: {type: String},
-    resereve_date: {type: Date},
-    reverse_hour: {type: String},
-    reverse_obs: {type: String},
-})
+const {
+    getReserver,
+    getAllReserves,
+    createReserver,
+    updateReserver,
+    deleteReserver,
+} =  require("../Controller/reserve.controller");
 
-module.exports = mongoose.model('Reserve', reserveSchema);
+reserveRouter.get('reserve/all', getAllReserves);
+reserveRouter.get('reserve/:id', getReserver);
+reserveRouter.post('reserve/register', createReserver);
+reserveRouter.put('reserve/update-user/:id', updateReserver);
+reserveRouter.delete('reserve/delete-user/:id', deleteReserver);
+
+module.exports = reserveRouter;

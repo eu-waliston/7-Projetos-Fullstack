@@ -12,7 +12,7 @@ const {
 userRouter.get('user/all', getAllUsers);
 userRouter.get('user/:id', getUserById);
 userRouter.post('user/register', createUser);
-userRouter.put('user/update-user', updateUser);
-userRouter.delete('user/delete-user', deleteUser);
+userRouter.put('user/update-user/:id', updateUser);
+userRouter.delete('user/delete-user/:id', deleteUser);
 
 module.exports = userRouter;
